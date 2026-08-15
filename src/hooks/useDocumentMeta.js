@@ -1,7 +1,7 @@
 import { useEffect } from 'react';
 
-const SITE_URL = 'https://mapleleafconsulting.com';
-const SITE_NAME = 'Maple Leaf Education & Immigration Counselling';
+const SITE_URL = 'https://mooseconsultants.com';
+const SITE_NAME = 'Moose Education and Immigration Consulting';
 
 function setMeta(attr, key, content) {
   let el = document.head.querySelector(`meta[${attr}="${key}"]`);

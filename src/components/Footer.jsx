@@ -15,7 +15,7 @@ export default function Footer({ logoHeight = 240, logoSquare = false, email, ph
       <div className={`footer-logo${logoSquare ? ' footer-logo-square' : ''}`}>
         <img
           src={logo}
-          alt="Maple Leaf Education & Immigration Counselling"
+          alt="Moose Education and Immigration Consulting"
           style={logoSquare ? { height: logoHeight, width: logoHeight, objectFit: 'fill' } : { height: logoHeight, width: 'auto' }}
         />
       </div>

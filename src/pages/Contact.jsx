@@ -25,9 +25,9 @@ const content = {
       sentBody: 'Ekibimiz en kısa sürede sizinle iletişime geçecek.',
     },
     footer: {
-      email: { display: 'info@mapleleafconsulting.com', href: 'info@atlanticedu.com' },
+      email: { display: 'info@mooseconsultants.com', href: 'info@mooseconsultants.com' },
       phone: { display: '+90 212 327 00 00', href: '+902123270000' },
-      legal: 'Maple Leaf Education and Immigration Consulting; göçmenlik, vatandaşlık veya üniversite eğitim başvurularıyla ilgili herhangi bir sonuca dair garanti sunmaz ve sunduğunu iddia etmez. Bu sitedeki bilgiler yalnızca genel bilgilendirme amaçlıdır ve hukuki tavsiye niteliği taşımaz. Hukuki sorularınız ve göçmenlik özel durumunuzla ilgili olarak yetkili bir avukata veya lisanslı göçmenlik temsilcisine başvurmanız önerilir.',
+      legal: 'Moose Education and Immigration Consulting; göçmenlik, vatandaşlık veya üniversite eğitim başvurularıyla ilgili herhangi bir sonuca dair garanti sunmaz ve sunduğunu iddia etmez. Bu sitedeki bilgiler yalnızca genel bilgilendirme amaçlıdır ve hukuki tavsiye niteliği taşımaz. Hukuki sorularınız ve göçmenlik özel durumunuzla ilgili olarak yetkili bir avukata veya lisanslı göçmenlik temsilcisine başvurmanız önerilir.',
     },
   },
   en: {
@@ -49,9 +49,9 @@ const content = {
       sentBody: 'Our team will get back to you shortly.',
     },
     footer: {
-      email: { display: 'info@mapleleafconsulting.com', href: 'info@atlanticedu.com' },
+      email: { display: 'info@mooseconsultants.com', href: 'info@mooseconsultants.com' },
       phone: { display: '+90 212 327 00 00', href: '+902123270000' },
-      legal: 'Maple Leaf Education and Immigration Consulting does not provide, and does not claim to provide, any guarantee of outcome regarding immigration, citizenship or university education applications. Information on this site is for general informational purposes only and does not constitute legal advice. For legal questions and your specific immigration circumstances, please consult a licensed attorney or authorized immigration representative.',
+      legal: 'Moose Education and Immigration Consulting does not provide, and does not claim to provide, any guarantee of outcome regarding immigration, citizenship or university education applications. Information on this site is for general informational purposes only and does not constitute legal advice. For legal questions and your specific immigration circumstances, please consult a licensed attorney or authorized immigration representative.',
     },
   },
 };

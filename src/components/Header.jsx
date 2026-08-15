@@ -18,7 +18,7 @@ export default function Header({ showCta = true }) {
     <header className={`site-header${open ? ' mm-open' : ''}`}>
       <div className="site-header-bar">
         <Link to="/" className="site-logo-link">
-          <img src={headerLogo} alt="Maple Leaf Education & Immigration Counselling" className="site-logo" />
+          <img src={headerLogo} alt="Moose Education and Immigration Consulting" className="site-logo" />
         </Link>
 
         <button id="mm-toggle" type="button" aria-label="Menu" onClick={() => setOpen((o) => !o)}>

@@ -20,7 +20,7 @@ const content = {
       ctaSecondary: 'Hizmetlerimizi İnceleyin',
     },
     why: {
-      kicker: 'NEDEN MAPLE LEAF',
+      kicker: 'NEDEN MOOSE',
       title: 'İhtiyaçlarınızı çok iyi anlıyor ve hedefleriniz için birlikte çalışıyoruz.',
       items: [
         { n: '01', title: 'Empati', desc: "Kanada'da okuduk, çalıştık ve göçmenlik sürecini tamamladık — teoride değil, pratikte geçtiğiniz zorlu süreci biliyoruz ve size bu konuda tam destek oluyoruz." },
@@ -62,9 +62,9 @@ const content = {
     },
     cta: { title: 'Yolculuğunuza Bugün Başlayın', sub: 'Hedeflerinizi birlikte değerlendirelim.', button: 'Ücretsiz Danışma Randevusu Al' },
     footer: {
-      email: { display: 'info@mapleconsulting.com', href: 'info@atlanticedu.com' },
+      email: { display: 'info@mooseconsultants.com', href: 'info@mooseconsultants.com' },
       phone: { display: '+90 536 999 99 99 ', href: '+902123270000' },
-      legal: 'Maple Leaf Education and Immigration Consulting; göçmenlik, vatandaşlık veya üniversite eğitim başvurularıyla ilgili herhangi bir sonuca dair garanti sunmaz ve sunduğunu iddia etmez. Bu sitedeki bilgiler yalnızca genel bilgilendirme amaçlıdır ve hukuki tavsiye niteliği taşımaz. Hukuki sorularınız ve göçmenlik özel durumunuzla ilgili olarak yetkili bir avukata veya lisanslı göçmenlik temsilcisine başvurmanız önerilir.',
+      legal: 'Moose Education and Immigration Consulting; göçmenlik, vatandaşlık veya üniversite eğitim başvurularıyla ilgili herhangi bir sonuca dair garanti sunmaz ve sunduğunu iddia etmez. Bu sitedeki bilgiler yalnızca genel bilgilendirme amaçlıdır ve hukuki tavsiye niteliği taşımaz. Hukuki sorularınız ve göçmenlik özel durumunuzla ilgili olarak yetkili bir avukata veya lisanslı göçmenlik temsilcisine başvurmanız önerilir.',
       rights: 'Tüm hakları saklıdır.',
     },
   },
@@ -76,7 +76,7 @@ const content = {
       ctaSecondary: 'Explore Our Services',
     },
     why: {
-      kicker: 'WHY MAPLE LEAF',
+      kicker: 'WHY MOOSE',
       title: 'We understand your goals. We help you get there faster.',
       items: [
         { n: '01', title: 'Empathy', desc: 'Our founders studied, worked and went through the immigration process in Canada themselves — we know first-hand how demanding this journey is, and give you our full support through it.' },
@@ -136,9 +136,9 @@ const content = {
     },
     cta: { title: 'Start Your Journey Today', sub: "Let's assess your goals together.", button: 'Book a Free Consultation' },
     footer: {
-      email: { display: 'info@mapleconsulting.com', href: 'info@atlanticedu.com' },
+      email: { display: 'info@mooseconsultants.com', href: 'info@mooseconsultants.com' },
       phone: { display: '+90 536 999 99 99 ', href: '+902123270000' },
-      legal: 'Maple Leaf Education and Immigration Consulting does not provide, and does not claim to provide, any guarantee of outcome regarding immigration, citizenship or university education applications. Information on this site is for general informational purposes only and does not constitute legal advice. For legal questions and your specific immigration circumstances, please consult a licensed attorney or authorized immigration representative.',
+      legal: 'Moose Education and Immigration Consulting does not provide, and does not claim to provide, any guarantee of outcome regarding immigration, citizenship or university education applications. Information on this site is for general informational purposes only and does not constitute legal advice. For legal questions and your specific immigration circumstances, please consult a licensed attorney or authorized immigration representative.',
       rights: 'All rights reserved.',
     },
   },
