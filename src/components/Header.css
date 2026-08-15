@@ -1,0 +1,162 @@
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  background: #f3f2f2;
+  border-bottom: 2px solid rgba(32, 30, 29, 0.4);
+}
+
+.site-header-bar {
+  max-width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 36px;
+  padding: 20px 32px;
+  flex-wrap: wrap;
+}
+
+.site-logo-link {
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+}
+
+.site-logo {
+  height: 240px;
+  width: auto;
+}
+
+.site-header-right {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  flex-wrap: wrap;
+  margin-left: auto;
+}
+
+.site-nav {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  font-size: 14px;
+  flex-wrap: wrap;
+}
+
+.site-nav a {
+  color: #201e1d;
+}
+
+.site-nav a:hover {
+  color: #d80621;
+}
+
+.site-nav a.active {
+  color: #d80621;
+  font-weight: 600;
+}
+
+.lang-switch {
+  display: flex;
+  border: 1px solid rgba(32, 30, 29, 0.4);
+}
+
+.lang-switch button {
+  border: 0;
+  background: transparent;
+  color: #201e1d;
+  font-family: Archivo, system-ui, sans-serif;
+  font-weight: 800;
+  font-size: 12px;
+  padding: 6px 10px;
+  cursor: pointer;
+}
+
+.lang-switch button+button {
+  border-left: 1px solid rgba(32, 30, 29, 0.4);
+}
+
+.lang-switch button.active {
+  background: #d80621;
+  color: #f3f2f2;
+}
+
+#mm-toggle {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+  border: 0.5px solid rgba(32, 30, 29, 0.4);
+  background: transparent;
+  cursor: pointer;
+  flex: 0 0 auto;
+  padding: 0;
+  margin-right: 12px;
+}
+
+#mm-toggle .mm-bars {
+  position: relative;
+  width: 20px;
+  height: 14px;
+}
+
+#mm-toggle .mm-bars span {
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: #201e1d;
+}
+
+#mm-toggle .mm-bars span:nth-child(1) {
+  top: 0;
+}
+
+#mm-toggle .mm-bars span:nth-child(2) {
+  top: 6px;
+}
+
+#mm-toggle .mm-bars span:nth-child(3) {
+  top: 12px;
+}
+
+@media (max-width: 680px) {
+  .site-logo {
+    height: 156px;
+  }
+
+  .site-header-bar {
+    padding: 24px 12px;
+    gap: 12px;
+  }
+
+  .site-header-right {
+    display: none;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    margin: 16px 0 0;
+    gap: 16px;
+  }
+
+  .site-header.mm-open .site-header-right {
+    display: flex;
+  }
+
+  .site-nav {
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;
+    width: 100%;
+    font-size: 18px;
+  }
+
+  #mm-toggle {
+    display: inline-flex;
+  }
+
+  .site-header-right > .btn-primary {
+    display: none;
+  }
+}

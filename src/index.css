@@ -1,0 +1,134 @@
+@import './assets/fonts/fonts.css';
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background: #f3f2f2;
+  color: #201e1d;
+  font-family: 'Archivo', system-ui, sans-serif;
+  min-height: 100vh;
+}
+
+.page {
+  background: #f3f2f2;
+  color: #201e1d;
+  font-family: 'Archivo', system-ui, sans-serif;
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 32px;
+}
+
+.section-divider {
+  border-bottom: 1px solid rgba(32, 30, 29, 0.4);
+}
+
+.kicker {
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.14em;
+  color: #d80621;
+  margin-bottom: 12px;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  font-family: Archivo, system-ui, sans-serif;
+  font-weight: 800;
+  font-size: 14px;
+  padding: 14px 24px;
+}
+
+.btn-primary {
+  background: #d80621;
+  color: #f3f2f2;
+}
+
+.btn-secondary {
+  border: 1px solid rgba(32, 30, 29, 0.4);
+  color: #201e1d;
+}
+
+.btn-cta-light {
+  background: #f3f2f2;
+  color: #d80621;
+  flex: none;
+  padding: 16px 28px;
+}
+
+.section-title {
+  font-size: clamp(24px, 4.5vw, 32px);
+  font-weight: 800;
+  letter-spacing: -0.015em;
+  margin: 0 0 40px;
+  max-width: 640px;
+}
+
+.rail-item {
+  padding: 12px 28px;
+  border-left: 2px solid rgba(32, 30, 29, 0.4);
+}
+
+.rail-item h3 {
+  font-size: 19px;
+  font-weight: 800;
+  margin: 0 0 10px;
+}
+
+.rail-item p {
+  font-size: 14px;
+  line-height: 1.6;
+  color: rgba(32, 30, 29, 0.75);
+  margin: 0;
+}
+
+.rail-n {
+  font-size: 13px;
+  font-weight: 800;
+  color: #d80621;
+  margin-bottom: 14px;
+}
+
+.cta-banner {
+  color: #f3f2f2;
+  padding: 80px 0;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.cta-banner-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.cta-banner-inner h2 {
+  font-size: clamp(26px, 4.5vw, 34px);
+  font-weight: 800;
+  letter-spacing: -0.015em;
+  margin: 0 0 10px;
+  color: #f3f2f2;
+}
+
+.cta-banner-inner p {
+  font-size: 16px;
+  margin: 0;
+  color: rgba(243, 242, 242, 0.85);
+}

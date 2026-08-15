@@ -1,0 +1,81 @@
+.services-header-section {
+  padding: 64px 0 56px;
+}
+
+.services-title {
+  font-size: clamp(28px, 6vw, 42px);
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  font-weight: 800;
+  margin: 0 0 20px;
+  max-width: 760px;
+}
+
+.services-sub {
+  font-size: 16px;
+  line-height: 1.6;
+  color: rgba(32, 30, 29, 0.75);
+  max-width: 640px;
+  margin: 0;
+}
+
+.service-detail {
+  padding: 56px 0;
+}
+
+.service-detail-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 56px;
+}
+
+.service-detail-icon {
+  font-size: 26px;
+  margin-bottom: 16px;
+}
+
+.service-detail h2 {
+  font-size: 28px;
+  font-weight: 800;
+  letter-spacing: -0.015em;
+  margin: 0 0 14px;
+}
+
+.service-detail p {
+  font-size: 14px;
+  line-height: 1.65;
+  color: rgba(32, 30, 29, 0.75);
+  margin: 0;
+}
+
+.service-bullets {
+  display: flex;
+  flex-direction: column;
+}
+
+.service-bullet {
+  padding: 16px 0;
+  border-top: 1px solid rgba(32, 30, 29, 0.25);
+  display: flex;
+  gap: 16px;
+  align-items: baseline;
+}
+
+.bullet-dot {
+  width: 6px;
+  height: 6px;
+  background: #d80621;
+  flex: none;
+  transform: translateY(-2px);
+}
+
+.service-bullet span:last-child {
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.services-cta-banner {
+  height: 642px;
+  display: flex;
+  align-items: center;
+}
