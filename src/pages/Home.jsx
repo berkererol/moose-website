@@ -14,8 +14,8 @@ const content = {
   tr: {
     hero: {
       kicker: 'YURTDIȘI EĞİTİM DANIŞMANLIĞI + AKADEMİK SINAV HAZIRLIĞI + GÖÇMENLİK',
-      title: 'Yurtdışı Eğitim ve Göçmenlik Yolculuğunuzda Çözüm Ortağınız.',
-      sub: 'Yurtdışı eğitim ve göçmenlik konusunda ögrenciler, çalışanlar ve aileler için bire bir eğitim ve rehberlik hizmeti veren deneyimli bir ekibiz.',
+      title: "Kanada'da Eğitim ve Göçmenlik Yolculuğunuzda Çözüm Ortağınız.",
+      sub: "Kanada'da eğitim ve göçmenlik konusunda ögrenciler, çalışanlar ve aileler için bire bir eğitim ve rehberlik hizmeti veren deneyimli bir ekibiz.",
       ctaPrimary: 'Ücretsiz Danışma Randevusu Al',
       ctaSecondary: 'Hizmetlerimizi İnceleyin',
     },
@@ -38,7 +38,7 @@ const content = {
         { title: 'İleri Süreç Takibi & Mentorluk', desc: 'Kabul sonrası ders/bölüm seçimi, diploma şartları ve kariyer rehberliği.' },
         { title: 'Kanada Üniversite Kabul Stratejisi', desc: "Toronto, Ottawa, Montréal ve Vancouver'da bulunan ve dünyanın önde gelen üniversiteleri için profil oluşturma ve burs stratejisi." },
         { title: 'Dil Okulları & Yaz Okulu', desc: 'Yurt dışında dil eğitimi ve yaz okulu programları için doğru kurum ve şehir seçimi. Kalacak yer ve kısa dönem öğrenci vize başvurularında rehberlik.' },
-        { title: "Kanada Lise Eğitimi', desc: 'Lise öğrencileri için Kanada'da eğitim planlaması ve başvuru süreci desteği. Kalacak yer ve uzun dönem öğrenci vize başvurularında rehberlik." },
+        { title: "Kanada Lise Eğitimi", desc: "Lise öğrencileri için Kanada'da eğitim planlaması ve başvuru süreci desteği. Kalacak yer ve uzun dönem öğrenci vize başvurularında rehberlik." },
       ],
     },
     how: {
